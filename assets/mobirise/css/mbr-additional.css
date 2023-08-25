@@ -3460,11 +3460,16 @@ a {
   color: #ffffff;
   text-align: left;
 }
-.cid-tNTQSb9pyh #zoomable-image {
+.cid-tNTQSb9pyh .zoomable-image {
+  overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
-.cid-tNTQSb9pyh .product-image:hover #zoomable-image {
-  transform: scale(1.1);
+.cid-tNTQSb9pyh .image-wrapper:hover .zoomable-image {
+  transform: scale(1.3);
+}
+.cid-tNTQSb9pyh .image-wrapper img {
+  width: 100%;
+  height: auto;
 }
 .cid-tNTQSb9pyh .product-price {
   font-size: 30px;
